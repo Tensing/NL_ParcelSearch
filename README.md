@@ -7,7 +7,7 @@ The search functionaliuty in this toolbox uses an ArcGIS Map Service hosted by E
 
 Please read - and agree to - the [Esri Nederland Terms of Use](http://www.esri.nl/overig/terms-of-use) before using this toolbbox.
 
-Each cadastral parcel in the Netherlands is identified by a unique code consisting of 3 elements:  the municipality (Gemeentecode), a section (Sectie) and the actual parcel number (Perceelnummer). If you enter **ASD04**, **F** and **2749** respectively, you will zoom in to the Royal Palace at Dam Square in Amsterdam.
+Each cadastral parcel in the Netherlands is identified by a unique code consisting of 3 elements:  the municipality (*Gemeentecode*), a section (*Sectie*) and the actual parcel number (*Perceelnummer*). If you enter **ASD04**, **F** and **2749** respectively, you will zoom in to the Royal Palace at Dam Square in Amsterdam.
 
 The geometry returned by the Map Service is in EPSG:28992, hence the limitation that the tool will only work when the Coordinate System of the map is set to RD_New.
 
